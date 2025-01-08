@@ -9,6 +9,8 @@ import UserCard from './components/UserCard'
 import Paragraph from './components/Paragraph'
 import CommentList from './components/CommentList'
 import Dashboard from './pages/Dashboard'
+import SavedBooks from './components/SavedBooks'
+import Recommendations from './pages/Recommendations'
 function App() {
 
   return (
@@ -30,6 +32,8 @@ function App() {
     <Paragraph />
     <CommentList />
     {/* <Dashboard /> */}
+    <SavedBooks />
+    <Recommendations />
     </>
   )
 }

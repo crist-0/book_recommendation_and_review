@@ -2,7 +2,6 @@ import React from "react";
 import RecentlyViewed from "../components/RecentlyViewed";
 import SavedBooks from "../components/SavedBooks";
 import Reviews from "../components/Reviews";
-import Recommendations from "../components/Recommendations";
 
 const Dashboard = () => {
     return (

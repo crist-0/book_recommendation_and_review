@@ -9,7 +9,8 @@ const BookCard = ({ book }) => {
           <img
             src={book.coverImage}
             alt={`${book.name} cover`}
-            className="w-full md:w-1/2 lg:w-1/3 h-48 md:h-auto lg:h-auto object-cover"
+            // className="w-full md:w-1/2 lg:w-1/3 h-48 md:h-auto lg:h-auto object-cover"
+            className="w-full max-w-xs h-auto object-cover rounded-lg"
           />
           {/* Details Section */}
           <div className="p-5 flex-1">
