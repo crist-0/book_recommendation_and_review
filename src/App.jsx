@@ -8,6 +8,7 @@ import BookCard from './components/BookCard'
 import UserCard from './components/UserCard'
 import Paragraph from './components/Paragraph'
 import CommentList from './components/CommentList'
+import Dashboard from './pages/Dashboard'
 function App() {
 
   return (
@@ -28,6 +29,7 @@ function App() {
     <UserCard /> 
     <Paragraph />
     <CommentList />
+    {/* <Dashboard /> */}
     </>
   )
 }
